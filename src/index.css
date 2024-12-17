@@ -1,0 +1,76 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+}
+header{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  gap: 10px;
+font-size: 32px;
+font-weight: 400;
+line-height: 60px;
+letter-spacing: -0.05em;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.10), 0px 1px 2px 0px rgba(0, 0, 0, 0.06);
+}
+header img{
+  width: 43px;
+  display: block;
+}
+main{
+  padding: 30px 30px 10px;
+}
+.add-ingredient-form{
+  display: flex;
+  justify-content: center;
+  gap: 12px;
+  /* align-items: center; */
+}
+.add-ingredient-form input{
+  border-radius: 6px;
+  border: 1px solid #d1d5db;
+  padding: 9px 13px;
+  box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.05);
+  flex-grow: 1;
+  min-width: 150px;
+  max-width: 400px;
+}
+.add-ingredient-form button{
+  font-family: "Inter", sans-serif;
+  border-radius: 6px;
+  border:none;
+  background-color: #141413;
+  color: #fafaf8;
+  padding: 10px 14px;
+}
+ ul{
+  margin: 20px auto;
+  max-width: 400px;
+  min-width: 150px;
+  
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
